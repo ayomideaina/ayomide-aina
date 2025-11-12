@@ -10,9 +10,11 @@
     --heading-font: 'Montserrat', sans-serif;
     --primary-color: #1E90FF;
     --color-accent: #FBBF24;
+    --js-color:#FFFF00;
     --color-text: #000000;
     --color-bg: #FFFFFF;
     --header-bg: #000000D9;
+    --b-icon-color:#6F42C1;
 }
 
 @keyframes wave {
@@ -28,4 +30,18 @@
   /* display: inline-block; */
   transform-origin: bottom center;
   animation: wave 2s infinite ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
 }

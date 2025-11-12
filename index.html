@@ -23,7 +23,7 @@
         <div class="max-w-6xl mx-auto flex justify-between items-center py-5 md:px-10 px-6">
             <!-- Brand -->
             <a href="#" class="font-bold text-lg md:text-2xl text-[var(--primary-color)]" >
-                Ayomide<span class="text-gray-800 dark:text-gray-100"> A.E</span>
+                Ayomide<span class="text-gray-800 dark:text-gray-100"> A.</span>
             </a>
 
             <!-- Nav Menu -->
@@ -32,7 +32,6 @@
                 <a href="#skills" class="hover:text-[var(--primary-color)] transition-colors duration-300">Skills</a>
                 <a href="#experience" class="hover:text-[var(--primary-color)] transition-colors duration-300">Experiences</a>
                 <a href="#projects" class="hover:text-[var(--primary-color)] transition-colors duration-300">Projects</a>
-                <a href="#resume" class="hover:text-[var(--primary-color)] transition-colors duration-300">Resume</a>
                 <a href="#contact" class="hover:text-[var(--primary-color)] transition-colors duration-300">Contact Me</a>
             </nav>
 
@@ -45,25 +44,215 @@
         </div>
     </header>
     <!-- hero section -->
-    <section id="hero" class="max-w-6xl mx-auto flex justify-center items-center py-5 md:px-10 px-6 min-h-screen flex-col">
-        <div class="text-center  max-w-xl order-2 md:order-1 mt-12 md:mt-0 pt-10" style=" font-family: var(--secondary-font);">
-            <p class="text-lg md:text-3xl font-semibold mb-2">Hi,</p>
-            <h1 class="text-xl md:text-5xl font-bold my-2">
-                I'm <span class="text-[var(--primary-color)]">Ayomide Aina</span>
-                <span id="wave" class="inline-block w-8 h-8 mx-1">
-                    <img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f44b.png" alt=""
-                    class="w-full h-full object-contain animate-wave origin-bottom">
-                </span>
-            </h1>
-            <h2 id="role-title" class="text-lg md:text-xl text-gray-900 dark:text-gray-300 py-2">
-                a Frontend Developer,
-            </h2>
-            <p id="role-text" class="text-lg md:text-xl text-gray-700 dark:text-gray-300">
-                I enjoy creating user-friendly and visually appealing websites.
-            </p>
+    <main>
+        <section id="hero" class="max-w-6xl mx-auto flex justify-center items-center py-5 md:px-10 px-6 min-h-screen flex-col">
+            <div class="text-center  max-w-xl order-2 md:order-1 mt-12 md:mt-0 pt-10" style=" font-family: var(--secondary-font);">
+                <p class="text-lg md:text-3xl font-semibold mb-2">Hi,</p>
+                <h1 class="text-xl md:text-5xl font-bold my-2">
+                    I'm <span class="text-[var(--primary-color)]">Ayomide Aina</span>
+                    <span id="wave" class="inline-block w-8 h-8 mx-1">
+                        <img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f44b.png" alt=""
+                        class="w-full h-full object-contain animate-wave origin-bottom">
+                    </span>
+                </h1>
+                <h2 id="role-title" class="text-lg md:text-xl text-gray-900 dark:text-gray-300 py-2">
+                    a Frontend Developer,
+                </h2>
+                <p id="role-text" class="text-lg md:text-xl text-gray-700 dark:text-gray-300">
+                    I enjoy creating user-friendly and visually appealing websites.
+                </p>
 
+                <!-- Socials -->
+                <div class="flex flex-wrap justify-center gap-4 my-7">
+                    <a href="https://github.com/ayomideaina" target="_blank"
+                        class="bg-[#171515] text-white py-3 px-4 rounded-full text-lg hover:bg-[#171515] transition duration-300">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/ayomideaina" target="_blank"
+                        class="bg-[#0A66C2] text-white py-3 px-4 rounded-full text-lg hover:bg-[#171515] transition duration-300">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:ayomide.aina224@gmail.com"
+                        class="bg-[#EA4335] text-white py-3 px-4 rounded-full text-lg hover:bg-[#171515] transition duration-300">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://hashnode.com/@ayomideaina" target="_blank"
+                        class="bg-[#2962FF] text-white py-3 px-4 rounded-full text-lg hover:bg-[#171515] transition duration-300">
+                        <i class="fa-brands fa-hashnode"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="about max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center p-10" style="font-family: var(--secondary-font);">
+            <div class="md:w-1/2 flex flex-col text-center md:text-left mt-8 md:mt-0">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
+                <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed max-w-lg">
+                    A passionate Frontend Developer who enjoys crafting beautiful, user-friendly, and accessible web experiences.
+                    As a developer, I value clean code, attention to detail, and continuous learning. I believe that great design goes hand-in-hand with great user experience, 
+                    and I aim to bridge that gap through thoughtful frontend development
+                </p>
+                <div class="flex justify-between md:justify-start gap-8 mt-6">
+                    <a href="/" target="_blank" rel="noopener noreferrer"
+                        class="bg-[var(--primary-color)] text-sm text-white px-3 md:px-6 py-3 rounded-lg font-semibold hover:bg-[#1d4ed8] hover:scale-105 transition-all duration-300 ease-in-out shadow-md">
+                        SEE MY RESUME
+                    </a>
+                    <a href="#projects"
+                        class="bg-gray-800 text-white text-sm px-3 md:px-6 py-3 rounded-lg font-semibold hover:bg-[var(--primary-color)] hover:scale-105 transition-all duration-300 ease-in-out shadow-md">
+                        VIEW PROJECTS
+                    </a>
+                </div>
+            </div>
+            <!-- about Image -->
+            <div class="md:w-1/2 flex justify-center md:justify-end order-2 md:order-1">
+                <img 
+                    src="assets/images/Ayo.jpg" 
+                    alt="Aina Ayomide" 
+                    class="w-48 sm:w-64 md:w-[380px] lg:w-[450px] rounded-full object-cover shadow-lg"
+                >
+            </div>
+        </section>
+
+        <!-- skill section -->
+        <section id="skills" class="max-w-6xl mx-auto flex flex-col items-center p-10">
+            <h3 class="text-2xl md:text-3xl font-bold mb-5" style=" font-family: var(--heading-font);">Skills and technologies</h3>
+            <div class="mytools flex flex-wrap justify-center md:justify-start gap-8 mt-10 text-gray-700 dark:text-gray-300">
+    
+                <div class="flex flex-col items-center">
+                    <i class="devicon-html5-plain text-[70px] hover:text-[var(--color-accent)] duration-300"></i>
+                    <p class="mt-2 text-lg font-medium">HTML5</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="devicon-css3-plain text-[70px] hover:text-[var(--primary-color)] duration-300"></i>
+                    <p class="mt-2 text-lg font-medium">CSS3</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <i class="devicon-javascript-plain text-[70px] hover:text-yellow-400 duration-300"></i>
+                    <p class="mt-2 text-lg font-medium">JavaScript</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <i class="devicon-react-original text-[70px] hover:text-[var(--primary-color)] duration-300"></i>
+                    <p class="mt-2 text-lg font-medium">React</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <i class="devicon-tailwindcss-plain text-[70px] hover:text-[var(--primary-color)] duration-300"></i>
+                    <p class="mt-2 text-lg font-medium">Tailwind CSS</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <i class="devicon-github-original text-[70px] duration-300"></i>
+                    <p class="mt-2 text-lg font-medium">GitHub</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <i class="devicon-bootstrap-plain text-[70px] hover:text-[var(--b-icon-color)] duration-300"></i>
+                    <p class="mt-2 text-lg font-medium">Bootstrap</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- work experience -->
+        <section id="experience" class="max-w-6xl mx-auto flex flex-col items-center p-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8" style=" font-family: var(--heading-font);">Work Experience</h2>
+            <div class="w-full space-y-8">
+                <div class="bg-white dark:bg-gray-800 p-10 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-500 transform hover:-translate-y-2 hover:scale-105 animate-fadeIn">
+                    <h3 class="text-2xl font-semibold mb-2">Frontend Developer Intern</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Free lancer | January 2025 - Present</p>
+                    <ul class="list-disc list-inside text-gray-700 dark:text-gray-300">
+                        <li>Developed responsive web pages using HTML, CSS, JavaScript and react.</li>
+                        <li>Collaborated with designers to implement UI/UX designs.</li>
+                        <li>Optimized website performance and ensured cross-browser compatibility.</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-10 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-500 transform hover:-translate-y-2 hover:scale-105 animate-fadeIn">
+                    <h3 class="text-2xl font-semibold mb-2">Volunteer & Community Outreach</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Tech Mentor | May 2025 - Present</p>
+                    <ul class="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                        <li>Volunteered to assist children interested in learning technology fundamentals.</li>
+                        <li>Organized and participated in community projects to raise tech awareness among secondary school students.</li>
+                        <li>Introduced students to the basics of web development and digital creativity.</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-10 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-500 transform hover:-translate-y-2 hover:scale-105 animate-fadeIn">
+                    <h3 class="text-2xl font-semibold mb-2">Frontend Developer Intern</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">KodeCamp | January 2023 - May 2023</p>
+                    <ul class="list-disc list-inside text-gray-700 dark:text-gray-300">
+                        <li>Collaborated closely with the frontend and other teams to ensure seamless API integration to the pages.</li>
+                        <li> Used HTML, CSS and JavaScript to build a simple task management platform and implemented responsive designs for the pages</li>
+                        <li>Implemented new features to enhance user engagement.</li>
+                        <li>Used Git and GitHub for version control, facilitating smooth project collaboration with team members.</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 p-10 rounded-lg shadow-md hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 animate-fadeIn">
+                    <h3 class="text-2xl font-semibold mb-2">Frontend Developer Intern</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Africa Agility Foundation  | November 2024 - April 2025</p>
+                    <ul class="list-disc list-inside text-gray-700 dark:text-gray-300">
+                        <li>Developed SafeCity, a geolocation-based web application for real-time reporting of urban infrastructure issues (e.g., potholes, broken streetlights) 
+                            to local authorities implementing a user-friendly, responsive interface that enables citizens to submit reports with photo uploads and automatic 
+                            location tagging. 
+                        </li>
+                        <li>Built a personalised dashboard system for both citizens and authorities to track issue status, 
+                            view analytics, and manage communications efficiently.
+                        </li>
+                        <li>Created responsive websites using JavaScript and React, focusing on user-friendly interfaces and component reusability</li>
+                        <li>Assisted beginner-level interns with troubleshooting issues and enhance their understanding of frontend development concepts.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- project section -->
+        <section id="projects" class="project max-w-6xl mx-auto items-center p-10">
+            <h2 class="text-3xl md:text-4xl font-bold my-8 text-center" style=" font-family: var(--heading-font);">Projects</h2>
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white flex flex-col dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-500 transform hover:-translate-y-2 hover:scale-105">
+                    <img src="assets/images/restcountries.png" alt="Project 1" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Rest Countries</h3>
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">A web application where users can search for countries, filter by region, view border countries,
+                        and access details like population and capital, all powered by API integration.
+                    </p>
+                    <a href="https://restcountries-api-omega.vercel.app/" target="_blank" class="text-[var(--primary-color)] font-semibold hover:underline">View Project</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white flex flex-col dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-500 transform hover:-translate-y-2 hover:scale-105">
+                    <img src="assets/images/e commerce.png" alt="Project 2" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">E-commerce Website</h3>
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">An e-commerce platform with product listings, shopping cart, and checkout functionality.</p>
+                    <a href="https://e-commerce-theta-blond-28.vercel.app/" target="_blank" class="text-[var(--primary-color)] font-semibold hover:underline">View Project</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white flex flex-col dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-500 transform hover:-translate-y-2 hover:scale-105">
+                    <img src="assets/images/ceramics.png" alt="Project 2" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Ceramic Studio </h3>
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">An e-commerce website where users can explore and purchase unique ceramic pieces, read blog posts about ceramics, and connect directly with the CEO. Built with react and tailwind css</p>
+                    <a href="https://ceramicsworkshop-jtx4.vercel.app/" target="_blank" class="text-[var(--primary-color)] font-semibold hover:underline">View Project</a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-white flex flex-col dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-500 transform hover:-translate-y-2 hover:scale-105">
+                    <img src="assets/images/artstudio.png" alt="Project 3" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Art Studio Website</h3>
+                    <p class="text-gray-700 dark:text-gray-300 mb-4 flex-grow">A website for an art studio featuring galleries, artist profiles, and event information built Bootstrap.</p>
+                    <a href="https://ayomideaina.github.io/artStudio/"target="_blank"  class="text-[var(--primary-color)] font-semibold hover:underline">View Project</a>
+                </div>  
+            </div>
+        </section>
+        <!-- contact section -->
+        <section id="contact" class="max-w-6xl mx-auto flex flex-col    items-center p-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-3" style=" font-family: var(--heading-font);">Get in Touch</h2>
+            <p class="text-lg md:text-xl text-center mb-8 text-gray-700 dark:text-gray-300">
+                I'm open to opportunities and collaborations. Feel free to reach out to me via email or connect with me on social media.
+            </p>
             <!-- Socials -->
-            <div class="flex flex-wrap justify-center gap-4 my-7">
+            <div class="flex flex-wrap justify-center gap-4 my-2">
                 <a href="https://github.com/ayomideaina" target="_blank"
                     class="bg-[#171515] text-white py-3 px-4 rounded-full text-lg hover:bg-[#171515] transition duration-300">
                     <i class="fa-brands fa-github"></i>
@@ -81,51 +270,13 @@
                     <i class="fa-brands fa-hashnode"></i>
                 </a>
             </div>
-
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer class="bg-gray-100 dark:bg-gray-800 py-6 mt-10">
+        <div class="max-w-6xl mx-auto text-center text-gray-700 dark:text-gray-300" style=" font-family: var(--secondary-font);">
+            &copy; 2025 Ayomide Aina. All rights reserved.
         </div>
-    </section>
-
-    <!-- About section -->
-    <section class="about max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center p-10" style="font-family: var(--secondary-font);">
-        <div class="md:w-1/2 flex flex-col text-center md:text-left mt-8 md:mt-0">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
-            <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed max-w-lg">
-                A passionate Frontend Developer who enjoys crafting beautiful, user-friendly, and accessible web experiences.
-                As a developer, I value clean code, attention to detail, and continuous learning. I believe that great design goes hand-in-hand with great user experience, 
-                and I aim to bridge that gap through thoughtful frontend development
-            </p>
-            <div class="flex justify-between md:justify-start gap-8 mt-6">
-                <a href="/" target="_blank" rel="noopener noreferrer"
-                    class="bg-[var(--primary-color)] text-sm text-white px-3 md:px-6 py-3 rounded-lg font-semibold hover:bg-[#1d4ed8] hover:scale-105 transition-all duration-300 ease-in-out shadow-md">
-                    SEE MY RESUME
-                </a>
-                <a href="#projects"
-                    class="bg-gray-800 text-white text-sm px-3 md:px-6 py-3 rounded-lg font-semibold hover:bg-[var(--primary-color)] hover:scale-105 transition-all duration-300 ease-in-out shadow-md">
-                    VIEW PROJECTS
-                </a>
-            </div>
-        </div>
-         <!-- about Image -->
-        <div class="md:w-1/2 flex justify-center md:justify-end order-2 md:order-1">
-            <img 
-                src="assets/images/Ayo.jpg" 
-                alt="Aina Ayomide" 
-                class="w-48 sm:w-64 md:w-[380px] lg:w-[450px] rounded-full object-cover shadow-lg"
-            >
-        </div>
-    </section>
-
-    <!-- skills -->
-    <section id="skills" class="max-w-6xl mx-auto flex flex-col items-center p-10">
-        <div class="mytools flex flex-wrap justify-center md:justify-start mt-10 text-[70px] text-gray-700 dark:text-gray-300">
-            <i class="devicon-html5-plain hover:text-[var(--primary-color)] duration-300 p-10 "></i>
-            <i class="devicon-css3-plain hover:text-[var(--primary-color)] duration-300 p-10 "></i>
-            <i class="devicon-javascript-plain hover:text-[var(--primary-color)] duration-300 p-10"></i>
-            <i class="devicon-react-original hover:text-[var(--primary-color)] duration-300 p-10"></i>
-            <i class="devicon-tailwindcss-plain hover:text-[var(--primary-color)] duration-300 p-10"></i>
-            <i class="devicon-github-original hover:text-[var(--primary-color)] duration-300 p-10"></i>
-        </div>
-    </section>
     <script src="assets/script.js"></script>
 </body>
 </html>
