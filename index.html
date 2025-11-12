@@ -42,9 +42,19 @@
                 </button>
             </div>
         </div>
+         <!-- Mobile Dropdown Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white dark:bg-gray-800 w-full shadow-lg">
+            <div class="flex flex-col px-6 py-4 space-y-4">
+            <a href="#about" class="hover:text-[var(--primary-color)] transition-colors duration-300">About</a>
+            <a href="#skills" class="hover:text-[var(--primary-color)] transition-colors duration-300">Skills</a>
+            <a href="#experience" class="hover:text-[var(--primary-color)] transition-colors duration-300">Experiences</a>
+            <a href="#projects" class="hover:text-[var(--primary-color)] transition-colors duration-300">Projects</a>
+            <a href="#contact" class="hover:text-[var(--primary-color)] transition-colors duration-300">Contact Me</a>
+        </div>
     </header>
-    <!-- hero section -->
+
     <main>
+        <!-- Hero section -->
         <section id="hero" class="max-w-6xl mx-auto flex justify-center items-center py-5 md:px-10 px-6 min-h-screen flex-col">
             <div class="text-center  max-w-xl order-2 md:order-1 mt-12 md:mt-0 pt-10" style=" font-family: var(--secondary-font);">
                 <p class="text-lg md:text-3xl font-semibold mb-2">Hi,</p>
@@ -275,7 +285,7 @@
     <!-- footer section -->
     <footer class="bg-gray-100 dark:bg-gray-800 py-6 mt-10">
         <div class="max-w-6xl mx-auto text-center text-gray-700 dark:text-gray-300" style=" font-family: var(--secondary-font);">
-            &copy; 2025 Ayomide Aina. All rights reserved.
+            &copy; <span id="currentYear"></span> Ayomide Aina. All rights reserved.
         </div>
     <script src="assets/script.js"></script>
 </body>
